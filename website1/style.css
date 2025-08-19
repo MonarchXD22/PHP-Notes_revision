@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: grey;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heading{
+    color: orange;
+}
+
+.header{
+    display: flex;
+    width: 100vw;
+    background-color: aliceblue;
+    gap: 10px;
+}
+
+.header .navele{
+    list-style: none;
+    display: flex;
+    margin: 20px;
+    flex: 1;
+}
+
+li{
+    flex: 1;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}
